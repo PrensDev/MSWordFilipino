@@ -91,14 +91,6 @@ Isang <i>static web application</i> na layuning magturo ng paggamit ng MS Word s
 <br>
 
 <div align="center">
-    <img src="screenshots/home_2.png" style="width: 75%">
-    <br>
-    <small>Home (Gitnang bahagi)</small>
-</div>
-
-<br>
-
-<div align="center">
     <img src="screenshots/what_word.png" style="width: 75%">
     <br>
     <small>Introduksyon: Ano ang MS Word?</small>
