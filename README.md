@@ -72,7 +72,7 @@ Isang <i>static web application</i> na layuning magturo ng paggamit ng MS Word s
 
 ## Mga ilang Screenshot
 
-<b>Paalala: </b> Karamihan sa mga imaheng ginamit sa <i>web app</i> na ito ay mula sa opisyal na website ng [Micorsoft](https://support.microsoft.com/en-us/office/word-for-windows-training-7bcd85e6-2c3d-4c3c-a2a5-5ed8847eae73).
+<b>Paalala: </b> Karamihan sa mga imaheng ginamit sa <i>web app</i> na ito ay mula sa opisyal na website ng [Microsoft](https://support.microsoft.com/en-us/office/word-for-windows-training-7bcd85e6-2c3d-4c3c-a2a5-5ed8847eae73).
 
 <div align="center">
     <img src="screenshots/home.png" style="width: 75%">
