@@ -1,0 +1,124 @@
+<?php 
+	$article_title = "Magsingit ng header o footer";
+	include('layouts/pages_header.php'); 
+	include('templates/header.php'); 
+?>
+
+<div class="navbar" id="navbar">
+	<div><a class="nav active" draggable="false">Mag-layout</a></div>
+	<div><a class="nav" href="index.php" title="Home" draggable="false">Home</a></div>
+	<div><a class="nav" href="get_started.php" title="Mga Pagsasanay" draggable="false">Mga Pagsasanay</a></div>
+</div>
+<div class="body">
+	<div class="nav_add">
+		<a href="get_started.php" title="Mga pagsasanay" draggable="false">Mga Pagsasanay</a>
+		<span>&rarr;</span>
+		<a href="layout_pages.php" title="Mag-layout" draggable="false">Mag-layout</a>
+		<span>&rarr;</span>
+		<a href="insert_header.php" title="Artikulo: Magsingit ng header o footer" draggable="false">Magsingit ng header o footer</a>
+	</div>
+	<div class="col">
+		<div class="parent_nav">
+			<text class="pn_title">Mga atikulo sa kursong ito:</text>
+			<a href="change_margins.php" title="Artikulo: Baguhin ang Margin" draggable="false">
+				<div>Baguhin ang Margin<br><img src="<?= $IMG_DIR ?>icon.png" height="16px" style="margin-right: 10px">
+					<text class="article">Artikulo</text>
+				</div>
+			</a>
+			<a href="create_newsletter.php" title="Artikulo: Gumawa ng newsletter columns" draggable="false">
+				<div>Gumawa ng newsletter columns<br>
+					<img src="<?= $IMG_DIR ?>icon.png" height="16px" style="margin-right: 10px">
+					<text class="article">Artikulo</text>
+				</div>
+			</a>
+			<a href="change_orientation.php" title="Baguhin ang page orientation sa landscape o portrait" draggable="false">
+				<div>Baguhin ang page orientation sa landscape o portrait<br>
+					<img src="<?= $IMG_DIR ?>icon.png" height="16px" style="margin-right: 10px">
+					<text class="article">Artikulo</text>
+				</div>
+			</a>
+			<a href="add_border.php" title="Magdagdag ng border sa pahina" draggable="false">
+				<div>Magdagdag ng border sa pahina<br>
+					<img src="<?= $IMG_DIR ?>icon.png" height="16px" style="margin-right: 10px">
+					<text class="article">Artikulo</text>
+				</div>
+			</a>
+			<a href="insert_header.php" title="Magsingit ng header o footer" draggable="false">
+				<div class="active_tab">Magsingit ng header o footer<br>
+					<img src="<?= $IMG_DIR ?>icon.png" height="16px" style="margin-right: 10px">
+					<text class="article">Artikulo</text>
+				</div>
+			</a>
+			<a href="insert_pagenumber.php" title="Magsingit ng mga numero ng pahina" draggable="false">
+				<div>Magsingit ng mga numero ng pahina<br>
+					<img src="<?= $IMG_DIR ?>icon.png" height="16px" style="margin-right: 10px">
+					<text class="article">Artikulo</text>
+				</div>
+			</a>
+			<a href="insert_pagebreak.php" title="Magsingit ng page break" draggable="false">
+				<div>Magsingit ng page break<br>
+					<img src="<?= $IMG_DIR ?>icon.png" height="16px" style="margin-right: 10px">
+					<text class="article">Artikulo</text>
+				</div>
+			</a>
+			<a href="insert_tablecontent.php" title="Magsingit ng talaan ng mga nilalaman" draggable="false">
+				<div>Magsingit ng talaan ng mga nilalaman<br>
+					<img src="<?= $IMG_DIR ?>icon.png" height="16px" style="margin-right: 10px">
+					<text class="article">Artikulo</text>
+				</div>
+			</a>
+
+			<div class="next_topic">Susunod na paksa:<br>
+				<a href="insert_table.php">Maglagay ng mga talahanayan, larawan at watermarks &rarr;</a>
+			</div>
+		</div>
+		<div class="page_content">
+			<div class="body_head">
+				<div class="page_title">Magsingit ng header o footer</div>
+			</div>
+
+			<div class="col_info">
+				<div class="cont">
+					<ol type="1">
+						<li>Gamit ang cursor sa unang pahina ng iyong dokumento, pumunta sa <b>Insert</b>, piliin ang <b>Header</b> o kaya ang <b>Footer</b>, at tsaka pumili sa <i>built-in layout design</i>,o piliin ang <b>Edit Header</b> o <b>Edit Footer</b> upang lumikha ng iyong sariling gawa.
+							<div class="tip">
+									<text><b>Tandaan:</b> Kasama ang mga numero ng pahina sa ilang built-in header at footer designs.</text>
+							</div>
+						</li>
+						<li>Anumang nais mong paulit-ulit sa mga pahina ng iyong dokumento: idagdag ito sa header o footer area sa pahina.
+							<p>Kung ayaw mo sa unang pahina ang header o footer, piliin ang <b>Different First Page.</b></p>
+							<center><img src="<?= $IMG_DIR ?>insert_header_2.png" style="width: 80%" draggable="false"></center>
+						</li>
+						<li>Kapag tapos ka na, pindutin ang <b>Close Header</b> and <b>Footer</b>.<br><br>
+							<center><img src="<?= $IMG_DIR ?>insert_header_3.png" style="width: 80%" draggable="false"></center>
+						</li>
+							<div class="tip">
+									<text><b>Tandaan:</b> Upang makabalik sa header o footer para gumawa ng iba pang mga pagbabago, i-double click lang sa header o footer area.</text>
+							</div>
+						</li>
+					</ol>
+				</div>
+				<div class="img">
+					<img src="<?= $IMG_DIR ?>insert_header_1.png" width="100%" draggable="false">
+				</div>
+			</div>
+			
+			<hr>
+
+			<div class="next_article">
+				<text>Susunod na artikulo:<br><a href="insert_pagenumber.php" title="Magsingit ng mga numero ng pahina" draggable="false">Magsingit ng mga numero ng pahina &rarr;</a></text>
+			</div>
+
+			<hr>
+			
+		</div>
+	</div>
+
+	<br>
+
+</div>
+
+<?php 
+	include('templates/footer.php'); 
+	include('layouts/footer.php'); 
+?>

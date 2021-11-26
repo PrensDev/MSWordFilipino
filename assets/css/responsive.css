@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1000px) {
+
+.body {
+	padding-left: 30px;
+}
+
+.nav_add {
+	padding-left: 10px;
+}
+
+.header {
+	padding: 15px 30px;
+}
+.header_title {
+	font-size: 30px;
+	font-family: Segoe UI Light;
+}
+.header_subtitle {
+	font-size: 15px;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+.col .parent_nav, .col .page_content {
+	display: block;
+	width: 90%;
+}
+
+.col .parent_nav {
+	border: 1px solid lightgrey;
+	padding: 10px;
+	order: 2;
+}
+
+.pn_title {
+	display: block;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.body .page_content {
+	order: 1;
+}
+
+.col_info {
+	display: flex;
+	flex-direction: column;
+}
+
+.col_info .cont, .col_info .img {
+	display: block;
+	width: 100%;
+}
+	
+.col_info .cont {
+	order: 2;
+}
+	
+.col_info .img {
+	margin: 0;
+	order: 1;
+}
+
+.col_info .img img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.col_info .img img, .tip img {
+	display: block;
+	width: 75%;
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+
+
+}

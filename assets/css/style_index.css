@@ -1,0 +1,140 @@
+/* This design was created by: Jetsun Prince Torres */
+* {
+	outline: none;
+	user-select: none;
+	font-family: Segoe UI;
+}
+body {
+	margin: 0;
+}
+
+/* WORD COLOR: #2b579a */
+
+.header {
+	background: url("../images/bg1.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20em;
+	color: white;
+	text-align: center;
+}
+.header .title {
+	font-size: 45px;
+	padding: 12px;
+}
+.header .title text {
+	font-family: Segoe UI Light;
+}
+.header .subtitle {
+	font-size: 16px;
+}
+.header hr {
+	margin: 0;
+	border: 1px solid white;
+	margin-bottom: 5px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	background: #4675bc;
+}
+.navbar a {
+	padding: 20px 15px;
+	margin: 0 5px;
+	color: white;
+	text-decoration: none;
+	font-family: Segoe UI Light;
+}
+.navbar a:hover {
+	background: #2b579a;
+	cursor: pointer;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
+}
+.col2-flex {
+	display: flex;
+	background: #eaeaea;
+	padding: 20px 0;
+}
+.col2-flex .col1 {
+	width: 50%;
+	padding: 20px;
+}
+.col2-flex .img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.col2-flex .head text {
+	font-size: 35px;
+	font-family: Segoe UI Light;
+	color: #616161;
+}
+.col2-flex .head {
+	padding-top: 25px;
+}
+.col2-flex a {
+	margin: 10px 0 ;
+}
+
+.descrp {
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.navigate {
+	margin: 30px 0;
+}
+.navigate a {
+	text-decoration: none;
+	font-family: Verdana;
+	color: #2b579a;
+	font-size: 18px;
+}
+.navigate a:hover {
+	text-decoration: underline;
+}
+
+.row {
+	padding: 15px 25px 50px 25px;
+}
+.head2 {
+	padding: 30px;
+	font-size: 28px;
+	text-align: center;
+}
+
+.col4-flex {
+	display: flex;
+}
+.col4-flex .col2 {
+	width: 25%;
+	margin: 0 20px;
+}
+.col2 div {
+	padding: 8px 10px;
+}
+.col2 .text text {
+	color: black;
+	font-weight: bold;
+	font-family: Verdana Light;
+	font-size: 18px;
+}
+
+.footer {
+	padding: 20px;
+	background:  #2b579a;
+	text-align: center;
+}
+.footer text {
+	color: white;
+	font-size: 18px;
+	font-family: Segoe UI Light;
+}

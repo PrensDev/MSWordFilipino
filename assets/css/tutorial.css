@@ -1,0 +1,118 @@
+/* This design was created by: Jetsun Prince Torres */
+* {
+	outline: none;
+	user-select: none;
+	font-family: Segoe UI;
+}
+
+body {
+	margin: 0;
+}
+
+/* WORD COLOR: #2b579a */
+
+
+.header {
+	padding: 25px 30px;
+	background: url("../images/bg2.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	color: white;
+}
+.header_title {
+	font-size: 40px;
+	font-family: Segoe UI Light;
+}
+.header hr {
+	border: 0.5px solid white;
+}
+.header_subtitle {
+	font-size: 18px;
+}
+
+.navbar {
+	display: flex;
+	padding: 13px;
+	background: gainsboro;
+}
+.sticky {
+	position: sticky;
+	top: 0;
+}
+.nav {
+	margin: 0 3px;
+	padding: 13px 25px;
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+}
+.nav:hover {
+	background: silver;
+}
+.active, .active:hover {
+	background: #2b579a;
+	color: white;
+}
+.footer {
+	padding: 20px;
+	background:  #2b579a;
+}
+
+.footer text {
+	color: white;
+	font-size: 18px;
+	font-family: Segoe UI Light;
+}
+
+
+
+
+.body {
+	margin: 0 50px;
+	min-height: 75vh;
+}
+.title {
+	padding: 25px 0 0 0;
+	color: #2b579a;
+}
+.title text {
+	font-size: 40px;
+	font-family: Segoe UI light;
+}
+.title hr {
+	border: solid 1px #2b579a;
+	margin: 1px;
+}
+.subtitle {
+	padding: 15px 0 0 0;
+}
+.subtitle text {
+	font-size: 20px;
+}
+.tutorials {
+	padding: 20px 40px;
+}
+.tutorials a {
+	text-decoration: none;
+	color: #2b579a;
+}
+.tutorials img {
+	margin-right: 10px;
+}
+.tutorials .tab {
+	border: solid 1px lightgrey;
+	padding: 20px;
+	margin: 10px;
+	font-size: 18px;
+	color: #2b579a;
+	font-family: Segoe UI;
+}
+.tutorials .tab:hover {
+	background: lightgrey;
+}
+
+
+.about {
+	padding: 20px 50px;
+	background: whitesmoke;
+}

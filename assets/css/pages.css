@@ -1,0 +1,176 @@
+/* This design was created by: Jetsun Prince Torres */
+* {
+	outline: none;
+	font-family: Segoe UI;
+}
+
+body {
+	margin: 0;
+}
+
+/* WORD COLOR: #2b579a */
+
+
+.header {
+	padding: 25px 30px;
+	background: url("../images/bg2.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	color: white;
+}
+.header_title {
+	font-size: 40px;
+	font-family: Segoe UI Light;
+}
+.header hr {
+	border: 0.5px solid white;
+}
+.header_subtitle {
+	font-size: 16px;
+}
+
+.navbar {
+	display: flex;
+	padding: 13px;
+	background: gainsboro;
+}
+.sticky {
+	position: sticky;
+	top: 0;
+}
+.nav {
+	margin: 0 3px;
+	padding: 13px 25px;
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+}
+.nav:hover {
+	background: silver;
+}
+.active, .active:hover {
+	background: #2b579a;
+	color: white;
+}
+.footer {
+	padding: 20px;
+	background:  #2b579a;
+}
+
+.footer text {
+	color: white;
+	font-size: 18px;
+	font-family: Segoe UI Light;
+}
+
+.nav_add {
+	padding: 15px 20px 10px 20px;
+	color: #2b579a;
+}
+.nav_add a {
+	color: black;
+	text-decoration: none;
+	font-family: Segoe UI light;
+}
+.nav_add a:hover {
+	text-decoration: underline;
+	color: steelblue;
+}
+.nav_add .nohov:hover {
+	color: black;
+	text-decoration: none;
+}
+.next_topic {
+	padding: 10px;
+}
+.next_topic a:hover {
+	text-decoration: underline;
+}
+.col {
+	display: flex;
+}
+
+.body {
+	min-height: 75vh;
+}
+.body .parent_nav {
+	width: 20%;
+}
+.parent_nav {
+	padding: 0 10px;
+	margin-bottom: 1.5rem;
+}
+.parent_nav a {
+	text-decoration: none;
+	color: #2b579a;
+}
+.parent_nav a div {
+	padding: 10px;
+	margin: 10px;
+	border: solid 1px #e5e5e5;
+	background: #e5e5e5;
+}
+.parent_nav a div:hover {
+	border: solid black 1px;
+}
+.parent_nav .active_tab {
+	background: white;
+}
+.pn_title {
+	display: none;
+}
+.article {
+	color: grey;
+	font-family: Segoe UI Light;
+}
+.body .page_content {
+	padding: 10px;
+	width: 80%;
+}
+.page_title {
+	font-size: 40px;
+	font-family: Segoe UI light;
+	color: #2b579a;
+}
+.info ul li, .col_info ol li {
+	padding: 10px;
+}
+.col_info {
+	display: flex;
+}
+.col_info .img, .col_info .cont {
+	width: 50%;
+}
+.col_info .cont {
+	padding: 0 10px;
+}
+.cont ol {
+	margin: 5 0 0 0;
+}
+.col_info .tip {
+	padding: 15px;
+	margin: 20px 0;
+	background: #c3cde6;
+}
+.col_info .img {
+	padding: 10px;
+	margin: 10px;
+}
+.next_article {
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+.next_article a {
+	text-decoration: none;
+	color: #2b579a;
+}
+.next_article a:hover {
+	text-decoration: underline;
+}
+
+.highlight {
+	font-size: 25px; 
+	font-family: Segoe UI Light; 
+	color: grey;
+}
