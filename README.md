@@ -30,8 +30,7 @@ Isang <i>static web application</i> na layuning magturo ng paggamit ng MS Word s
                 <li>Jose, Marc Alexandre S.</li>
                 <li>Nubla, Matthew Paul Benedict L.</li>
                 <li>Robillos, Elric C.J S.</li>
-                <li>Torres, Jetsun Prince P. (Gumawa at nagdesinyo ng <i>web app
-                </i></li>
+                <li>Torres, Jetsun Prince P. (Gumawa at nagdesinyo ng <i>web app</i></li>
             </ul>
         </td>
     </tr>
