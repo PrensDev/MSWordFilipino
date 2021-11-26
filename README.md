@@ -117,5 +117,5 @@ Isang <i>static web application</i> na layuning magturo ng paggamit ng MS Word s
 <div align="center">
     <img src="screenshots/apply_themes.png" style="width: 75%">
     <br>
-    <small>Maglapat ng tema of Themes</small>
+    <small>Maglapat ng tema o Themes</small>
 </div>
