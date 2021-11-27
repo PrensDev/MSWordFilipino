@@ -99,6 +99,14 @@ Isang <i>static web application</i> na layuning magturo ng paggamit ng MS Word s
 <br>
 
 <div align="center">
+    <img src="screenshots/get_started.png" style="width: 75%">
+    <br>
+    <small>Mga Pagsasanay</small>
+</div>
+
+<br>
+
+<div align="center">
     <img src="screenshots/write_edit.png" style="width: 75%">
     <br>
     <small>Mag-sulat at Mag-edit</small>
